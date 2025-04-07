@@ -38,7 +38,7 @@
         function rollDice() {
             let dieSides = parseInt(document.getElementById("dieSelect").value);
             let diceRoll = Math.floor(Math.random() * dieSides) + 1;
-            let diceImage = `d${dieSides}-${diceRoll}.webp`;  // Correct string interpolation
+            let diceImage = `d${dieSides}-${diceRoll}.webp`;
             document.getElementById("diceOutput").src = diceImage;
         }
     </script>
